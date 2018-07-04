@@ -1,0 +1,17 @@
+NAME:TYPE                                                   														
+Basic_course_button:linkText                                                    
+Green_gridbox:className													  
+Red_gridbox:className                                                   
+First_box_color:id														
+Second_box_color:id															 
+Repaint_button:linkText													    
+Proceed_button:linkText													
+Dragbox_element:id															  
+Dropbox_element:id     													  
+DragAndDrop_Proceed_button:linkText													 
+Popup_windows_button:partialLinkText													  
+Input_field:id														  
+Submit_button:id
+Generate_token_link:linkText		
+Token:id		
+Message:cssSelector

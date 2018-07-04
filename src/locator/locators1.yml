@@ -1,0 +1,17 @@
+NAME:VALUE														
+Basic_course_button:Basic Course
+Green_gridbox:greenbox
+Red_gridbox:redbox
+First_box_color:answer
+Second_box_color:answer
+Repaint_button:Repaint Box 2
+Proceed_button:Proceed
+Dragbox_element:dragbox
+Dropbox_element:dropbox
+DragAndDrop_Proceed_button:Proceed
+Popup_windows_button:Launch
+Input_field:name
+Submit_button:submit
+Generate_token_link:Generate Token
+Token:token
+Message:body > div > div.page > span
