@@ -6,21 +6,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import action.Locatersmap;
+import action.YamlReader;
 
 public class WebElementLocators {
-	Locatersmap locatersMap;
+	YamlReader yamlReader;
 	WebDriver driver;
 	
 	public WebElementLocators(WebDriver driver) throws IOException {
-		locatersMap = new Locatersmap();
+		yamlReader = new YamlReader();
 		this.driver = driver;
 	}
 	
 	
 	public WebElement getWebElement(String name) {	
-		 String typeOfElement = locatersMap.getLocatorType(name);
-		 String valueOfElement = locatersMap.getLocatorValue(name);
+		 String typeOfElement = yamlReader.getLocatorType(name);
+		 String valueOfElement = yamlReader.getLocatorValue(name);
 		 		
 		 if(typeOfElement.equals("id") == true) {
 			 return driver.findElement(By.id(valueOfElement)); 

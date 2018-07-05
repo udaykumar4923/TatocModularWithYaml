@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6534" started-at="2018-07-04T12:39:46Z" finished-at="2018-07-04T12:39:53Z">
+  <suite name="Default suite" duration-ms="5822" started-at="2018-07-05T12:54:30Z" finished-at="2018-07-05T12:54:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6534" started-at="2018-07-04T12:39:46Z" finished-at="2018-07-04T12:39:53Z">
+    <test name="Default test" duration-ms="5822" started-at="2018-07-05T12:54:30Z" finished-at="2018-07-05T12:54:36Z">
       <class name="test.MainTest">
-        <test-method status="PASS" signature="openTatocLink()[pri:0, instance:test.MainTest@55f3ddb1]" name="openTatocLink" is-config="true" duration-ms="2535" started-at="2018-07-04T18:09:46Z" finished-at="2018-07-04T18:09:49Z">
+        <test-method status="PASS" signature="openTatocLink()[pri:0, instance:test.MainTest@55f3ddb1]" name="openTatocLink" is-config="true" duration-ms="2092" started-at="2018-07-05T18:24:30Z" finished-at="2018-07-05T18:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openTatocLink -->
-        <test-method status="PASS" signature="attemptClickingBasicCourse()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptClickingBasicCourse" duration-ms="174" started-at="2018-07-04T18:09:49Z" finished-at="2018-07-04T18:09:49Z">
+        <test-method status="PASS" signature="attemptClickingBasicCourse()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptClickingBasicCourse" duration-ms="156" started-at="2018-07-05T18:24:33Z" finished-at="2018-07-05T18:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptClickingBasicCourse -->
-        <test-method status="PASS" signature="attemptGridBoxPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptGridBoxPage" duration-ms="376" started-at="2018-07-04T18:09:49Z" depends-on-methods="test.MainTest.attemptClickingBasicCourse" finished-at="2018-07-04T18:09:49Z">
+        <test-method status="PASS" signature="attemptGridBoxPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptGridBoxPage" duration-ms="333" started-at="2018-07-05T18:24:33Z" depends-on-methods="test.MainTest.attemptClickingBasicCourse" finished-at="2018-07-05T18:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptGridBoxPage -->
-        <test-method status="PASS" signature="attemptFrameAndDungeonPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptFrameAndDungeonPage" duration-ms="1621" started-at="2018-07-04T18:09:49Z" depends-on-methods="test.MainTest.attemptGridBoxPage" finished-at="2018-07-04T18:09:51Z">
+        <test-method status="PASS" signature="attemptFrameAndDungeonPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptFrameAndDungeonPage" duration-ms="1501" started-at="2018-07-05T18:24:33Z" depends-on-methods="test.MainTest.attemptGridBoxPage" finished-at="2018-07-05T18:24:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptFrameAndDungeonPage -->
-        <test-method status="PASS" signature="attemptDragAndDropPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptDragAndDropPage" duration-ms="457" started-at="2018-07-04T18:09:51Z" depends-on-methods="test.MainTest.attemptFrameAndDungeonPage" finished-at="2018-07-04T18:09:51Z">
+        <test-method status="PASS" signature="attemptDragAndDropPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptDragAndDropPage" duration-ms="414" started-at="2018-07-05T18:24:35Z" depends-on-methods="test.MainTest.attemptFrameAndDungeonPage" finished-at="2018-07-05T18:24:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptDragAndDropPage -->
-        <test-method status="PASS" signature="attemptPopupWindowsPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptPopupWindowsPage" duration-ms="889" started-at="2018-07-04T18:09:51Z" depends-on-methods="test.MainTest.attemptDragAndDropPage" finished-at="2018-07-04T18:09:52Z">
+        <test-method status="PASS" signature="attemptPopupWindowsPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptPopupWindowsPage" duration-ms="848" started-at="2018-07-05T18:24:35Z" depends-on-methods="test.MainTest.attemptDragAndDropPage" finished-at="2018-07-05T18:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptPopupWindowsPage -->
-        <test-method status="PASS" signature="attemptTokenGenerationPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptTokenGenerationPage" duration-ms="350" started-at="2018-07-04T18:09:52Z" depends-on-methods="test.MainTest.attemptPopupWindowsPage" finished-at="2018-07-04T18:09:52Z">
+        <test-method status="PASS" signature="attemptTokenGenerationPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="attemptTokenGenerationPage" duration-ms="345" started-at="2018-07-05T18:24:36Z" depends-on-methods="test.MainTest.attemptPopupWindowsPage" finished-at="2018-07-05T18:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptTokenGenerationPage -->
-        <test-method status="PASS" signature="verifyEndPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="verifyEndPage" duration-ms="41" started-at="2018-07-04T18:09:52Z" depends-on-methods="test.MainTest.attemptTokenGenerationPage" finished-at="2018-07-04T18:09:53Z">
+        <test-method status="PASS" signature="verifyEndPage()[pri:0, instance:test.MainTest@55f3ddb1]" name="verifyEndPage" duration-ms="42" started-at="2018-07-05T18:24:36Z" depends-on-methods="test.MainTest.attemptTokenGenerationPage" finished-at="2018-07-05T18:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEndPage -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.MainTest@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="69" started-at="2018-07-04T18:09:53Z" finished-at="2018-07-04T18:09:53Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.MainTest@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="73" started-at="2018-07-05T18:24:36Z" finished-at="2018-07-05T18:24:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
