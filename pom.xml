@@ -12,10 +12,11 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
-		
-	<manifest>
+          <archive>		
+		<manifest>
 		<mainClass>src.test.MainTest</mainClass>
-	</manifest>
+		</manifest>
+	</archive>
         </configuration>
       </plugin>
     </plugins>
