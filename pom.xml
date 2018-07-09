@@ -12,6 +12,10 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
+		
+	<manifest>
+		<mainClass>src.test.MainTest</mainClass>
+	</manifest>
         </configuration>
       </plugin>
     </plugins>
